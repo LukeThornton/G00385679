@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Galway Tourism
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- card ui display -->
+  <ion-card>
+    <ion-card-header>
+      <img src="assets/galway.jpg" alt="Galway Bay">
+      <ion-card-subtitle>Galway Bay</ion-card-subtitle>
+      <ion-card-title>Come Explore</ion-card-title>
+    </ion-card-header>
+  <!-- written content section -->
+    <ion-card-content>
+      Galway is second only to Dublin in yearly visitors. With it's charming streets, shopping and nightlife mixed with culture, 
+      traditional Irish music and activities for all the family, look no further for the perfect escape.
+    </ion-card-content>
+  </ion-card>
+  <!-- menu buttons -->
+  <ion-button (click)="foodPage()">Food</ion-button>
+  <ion-button (click)="pubsPage()">Pubs</ion-button>
+  <ion-button (click)="sightsPage()">Sights</ion-button>
+  <ion-button (click)="historyPage()">History</ion-button>
+</ion-content>
+
